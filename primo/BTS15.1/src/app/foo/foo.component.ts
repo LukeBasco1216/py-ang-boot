@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./foo.component.css']
 })
 export class FooComponent implements OnInit {
-
-  data = Object;
-  loading = boolean;
-  o = Observable<Object>;
+  
+  data!: Object;
+  loading!: boolean;
+  o!:Observable<Object>;
 
   constructor() { }
 
