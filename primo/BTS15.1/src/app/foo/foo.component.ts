@@ -13,12 +13,12 @@ export class FooComponent implements OnInit {
   loading: boolean;
   o :Observable<Object>;
 
-  //http: HttpClient;
-  //constructor(http: HttpClient) { 
-  //  this.http = http;
-  //}
+  http: HttpClient;
+  constructor(http: HttpClient) { 
+    this.http = http;
+  }
 
-  constructor(public http: HttpClient) {}
+  //constructor(public http: HttpClient) {}
   
   //Nota bene, questo è un metodo alternativo e compatto per fare la stessa cosa di 
   //makeRequest senza dichiarare la variabile Observable e creando l’arrow function   
