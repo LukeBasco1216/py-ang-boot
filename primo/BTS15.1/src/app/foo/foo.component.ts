@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import {Foo} from './foo.model';
   // scaricare questo: npm install --save rxjs-compat 
+  // npm install per i node modules
 @Component({
   selector: 'app-foo',
   templateUrl: './foo.component.html',
